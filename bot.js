@@ -12,7 +12,7 @@ var Twitter = new twit(config);
 
 // Array containing first half of randomized string.
 
-var opener = ["What the heck is  ", 
+var opener = ["What the heck is ", 
               "Why do I give a hoot about ", 
               "Oh dear, how do I use ", 
               "How the heck do I use ", 
@@ -27,7 +27,38 @@ var opener = ["What the heck is  ",
               "How do I use my iPhone to get onto ", 
               "Where do I find ", 
               "I just receieved an e-mail about ", 
-              "How do I send you something on "
+              "How do I send you something on ",
+              "It says the NSA locked my computer, I bet it was from ", 
+              "How does my bluetooth connect me to ", 
+              "I think somebody is spying on me through ", 
+              "Where do I find the darn ", 
+              "Well, I didn't have this problem until you installed ", 
+              "Is this similar to ", 
+              "Why can't I play sudoku on ", 
+              "I can't believe somebody made ", 
+              "Why don't you just use ", 
+              "I can't log my keyboard into ", 
+              "I think somebody must have defragmented my ", 
+              "Where are the videos on ", 
+              "My iPhone says it needs to install ", 
+              "What app brings up ", 
+              "My iPad isn't connecting to ", 
+              "Where in the world do I find ", 
+              "Oh my, you wouldn't believe what I found this morning on ", 
+              "Once I get home from church, I like to use ", 
+              "Is this the same as ", 
+              "What is my password for ", 
+              "Oh no, I think I lost ", 
+              "How about I use ", 
+              "Which button brings me to ", 
+              "I think there's a hacker in ", 
+              "Where is ", 
+              "Can I play Bingo on ", 
+              "How do I get the video on ", 
+              "My telephone is connected to ", 
+              "Where do I find ", 
+              "I can't believe ", 
+              "How did you learn so much about ",
               ];
 // Array containing second half of randomized string.
 
@@ -63,7 +94,40 @@ var closing = ["the Google",
                "an anti-virus alert", 
                "the power button", 
                "my pictures", 
-               "the Us-buh port"
+               "the Us-buh port",
+               "the Twitter", 
+               "an emoji", 
+               "the telephone", 
+               "Craigslist", 
+               "a PayPal", 
+               "an Android", 
+               "the tablet app", 
+               "my crossword game", 
+               "those Bitcoins", 
+               "that VPN thing", 
+               "Mac's Book", 
+               "the Facebook Messenger", 
+               "my doctor's e-mail", 
+               "the darn TV schedule", 
+               "this stupid computer", 
+               "Got-Hub", 
+               "the Googley Map", 
+               "my location", 
+               "Microsoft Tech Support", 
+               "the space bar", 
+               "my webcam", 
+               "an Apple", 
+               "Linux", 
+               "the Chromebooks", 
+               "Russian hackers", 
+               "my high school yearbook", 
+               "those fancy websites", 
+               "the YouTube", 
+               "my escape button", 
+               "the solid-state", 
+               "the cloud", 
+               "my videos", 
+               "my darn video cable"
               ];
 
 // Declare variable for combined arrays as final string.
@@ -104,5 +168,5 @@ var writeTweet = function() {
 // Set intervals for tweet creation, posting and status updates. 
 
 setInterval(giveStatus, 60000),
-setInterval(generateMessage, 1750000);
-setInterval(writeTweet, 1800000);
+setInterval(generateMessage, 3500000);
+setInterval(writeTweet, 3600000);
